@@ -1,0 +1,75 @@
+.Images{
+    /* margin: 20px; */
+    display: flex;
+    /* width: 10px; */
+    height: 91px;
+}
+
+/* Estrutura da Página */
+body {
+background-image: url("https://i.pinimg.com/236x/11/13/21/1113214557388b299da02e1598d6ced1.jpg");
+}
+
+/* Cabeçalho */
+header {
+    background-color: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+}
+
+/* Navegação */
+nav ul {
+    padding: 0;
+    list-style: none;
+    background-color: #35424a;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #e8491d;
+}
+
+/* Conteúdo Principal */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+/* Rodapé */
+footer {
+    background-color: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.autoria {
+    margin: 0;
+}
